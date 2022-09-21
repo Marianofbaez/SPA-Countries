@@ -1,0 +1,24 @@
+.containerCountry{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.containerActivity{
+    text-decoration: none;
+    /* background-color: rgb(39, 93, 39); */
+    color:rgb(1, 1, 50);
+    padding: 4px;
+    border-style: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 0.25rem;
+    margin: 5px;
+}
+.containerActivity:hover{
+    background-color: rgb(162, 162, 163);
+}
+.input{
+    border-radius: 0.25rem;
+    font-size: 16px;
+}

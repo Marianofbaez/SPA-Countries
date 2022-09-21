@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 250px;
+    height: 300px;
+    margin: 50px;
+    background-color:rgba(55, 55, 135, 0.449);
+    color:black;
+    border-radius: 10px;
+    padding: px 30px;
+}
+.card:hover{
+    color: azure
+}
+
+.name{
+    height: 10px;
+}
+
+.nameCard{
+    text-decoration:none;
+    color:black
+}
+.flag{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}

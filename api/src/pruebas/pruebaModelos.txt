@@ -1,0 +1,54 @@
+COUNTRY
+
+cca3: {
+    type: DataTypes.STRING,
+    primaryKey: true,
+    allowNull: false,
+  },
+  name: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  flags: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  region: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  capital: {
+    type: DataTypes.ARRAY(DataTypes.STRING),
+    allowNull: false,
+  },
+  subregion: {
+    type: DataTypes.STRING
+  },
+  area: {
+    type: DataTypes.INTEGER
+  },
+  population: {
+    type: DataTypes.INTEGER
+  },
+  // createdInDb: {              
+  //   type: DataTypes.BOOLEAN,
+  //   allowNull: false,
+  //   defaultValue: true,
+  // },
+
+
+ACTIVITY
+
+  name: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  difficulty: {
+      type: DataTypes.ENUM('1', '2', '3', '4', '5')
+  },
+  duration: {
+      type: DataTypes.INTEGER,
+  },
+  season: {
+      type: DataTypes.ENUM('Summer', 'Autumn', 'Winter', 'Spring')
+  },
